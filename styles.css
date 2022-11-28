@@ -1,2 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
+.holder{
+    display: grid;
+    grid-template-columns: repeat(1fr 1fr);
+    grid-template-rows: repeat(1fr 1fr);
+    grid-area:inherit;
+    width: 200px;
+    height: 200px;
+     
+}
+
+h1{
+    border: 1px solid red;
+}
 /* Your CSS Code here. */
